@@ -1,0 +1,68 @@
+:root
+{
+    --fn-fm: rgb(235, 163, 81);
+}
+
+img[class="inline"]
+{
+    vertical-align: middle;
+    height: 48px;
+}
+
+img[class="inline small"]
+{
+    vertical-align: middle;
+    height: 32px;
+}
+
+img[class="inline big"]
+{
+    vertical-align: middle;
+    height: 64px;
+}
+
+nav ul
+{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background: rgb(17,17,17);
+background: linear-gradient(6deg, rgba(17,17,17,1) 0%, rgba(51,51,51,1) 38%, rgba(80,80,80,1) 100%);
+}
+
+nav ul li
+{
+    float: left;
+}
+
+nav ul li a
+{
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    transition: background-color 0.2s ease;
+}
+
+nav ul li a:hover
+{
+    cursor: pointer;
+    background-color: #111111;
+}
+
+nav ul li a[class="active"]
+{
+    background-color: #111111;
+}
+
+.familiarity
+{
+    color: var(--fn-fm);
+}
+
+#table_main td
+{
+    padding: 5px;
+}
